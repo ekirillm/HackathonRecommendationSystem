@@ -1,1 +1,1 @@
-# HackathonRecommendationSystem
+# HakatonRecommendationSystem
