@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     {% load static %}
-    <link rel="stylesheet" href="{% static 'css/main.css' %}">
-    <title>Title</title>
+    <link rel="stylesheet" href="{% static 'css/main1.css' %}">
+    <title>Main</title>
 </head>
 <body>
 <div class="login-page">
@@ -19,7 +19,7 @@
     <form class="login-form">
       <input type="text" placeholder="Email"/>
       <input type="password" placeholder="Password"/>
-      <button>login</button>
+      <button formaction="{% url 'profile' %}">login </button>
       <p class="message">Not registered? <a href="{% url 'registration' %}">Create an account</a></p>
     </form>
   </div>
