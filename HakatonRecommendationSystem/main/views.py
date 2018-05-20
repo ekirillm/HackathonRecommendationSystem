@@ -16,3 +16,10 @@ def main(request):
         request,
         'main.html',
     )
+
+
+def profile(request):
+    return render(
+        request,
+        'profile.html',
+    )

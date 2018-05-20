@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/profile.css' %}">
+    <title>Title</title>
+</head>
+<body>
+<div class="header">
+   <h1>Рекомендуемые участники</h1>
+</div>
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="{% static "images/img1.jpg" %}" alt="My image" style="width:100%">
+      <div class="container">
+        <h2>Андрей</h2>
+        <p class="title">С++, C#</p>
+        <p>Всем привет, меня зовут Андрей, я программист и я люблю хакатоны.</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="{% static "images/img2.jpg" %}" alt="My image" style="width:100%">
+      <div class="container">
+        <h2>Роман</h2>
+        <p class="title">haskell</p>
+        <p>Каждый человек считает страдания, выпавшие на его долю, величайшими.</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="{% static "images/img3.jpg" %}" alt="My image" style="width:100%">
+      <div class="container">
+        <h2>Павел</h2>
+        <p class="title">Designer</p>
+        <p>Тоже какая-то информация. И еще немножко. Еще одна строка.</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+
+    <div class="column">
+    <div class="card">
+      <img src="{% static "images/img4.jpg" %}" alt="My image" style="width:100%">
+      <div class="container">
+        <h2>Виталий</h2>
+        <p class="title">CEO, Founder</p>
+        <p>Когда живешь один, вообще забываешь, что значит рассказывать.</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>
